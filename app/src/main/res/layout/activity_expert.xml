@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Expert">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="418dp"
+        android:layout_height="53dp"
+        android:text="EXPERT ADVICE AND HEALTH TIPS"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="344dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="92dp"
+        android:text="Dr Jennifer Haythe(Cardiologist):Set exercise goals, Stick to a Mediterranean-style diet, Prioritize healthy sleep habits, Try meditation and Take care of your teeth as they are linked to heart disease "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="329dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:text="More Information Will Be Added Later."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+</androidx.constraintlayout.widget.ConstraintLayout>

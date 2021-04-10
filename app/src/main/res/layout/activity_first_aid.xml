@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstAid">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="409dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:text="FIRST AID"
+        android:textAlignment="center"
+        android:textColor="#121212"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="386dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="224dp"
+        android:text="1)CARDIAC ARREST or HEART ATTACK: Have the person sit down, rest, and try to keep calm. Loosen any tight clothing.Ask if the person takes any chest pain medicine, such as nitroglycerin, for a known heart condition, and help them take itIf the pain does not go away promptly with rest or within 3 minutes of taking nitroglycerin, call for emergency medical help.If the person is unconscious and unresponsive, call 102, then begin CPR.If an infant or child is unconscious and unresponsive, perform 1 minute of CPR, then call 911 or the local emergency number."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="386dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="100dp"
+        android:text="More Information Will Be Added Later."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

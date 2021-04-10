@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item1"
+          android:icon="@drawable/ic_ambulance"
+          android:title="Call Ambulance"
+          app:showAsAction="ifRoom"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/item2"
+        android:title="Check Near By Pharmacies"
+        app:showAsAction="never"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/item3"
+        android:title="First Aid"
+        app:showAsAction="never"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/item4"
+        android:title="Expert Advice"
+        app:showAsAction="never"
+        tools:ignore="MenuTitle" />
+
+
+</menu>
