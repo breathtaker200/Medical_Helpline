@@ -3,9 +3,12 @@ package com.ishansomani.medicalhelpline;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentActivity;
 
+import android.content.Intent;
 import android.location.Address;
 import android.location.Geocoder;
+import android.net.Uri;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.SearchView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -61,8 +64,12 @@ public class Pharmacy extends FragmentActivity implements OnMapReadyCallback {
                 return false;
             }
         });
-        mapFragment.getMapAsync(this);
-    }
+        try {
+            mapFragment.getMapAsync(this);
+        } catch (Exception e){
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://maps.google.com/"));
+            startActivity(intent);
+    }}
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
